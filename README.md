@@ -9,8 +9,8 @@ We use Bert pre-trained model and transformer structure to implement sentiment a
 The advantage of GPT-2 over BERT is that it can generate natural language, so it is more suitable for tasks such as text generation; the advantage of BERT over GPT-2 is that it performs better in text classification, natural language inference, etc. So BERT is more suitable for sentiment analysis.
 
 ## Network structure
-Word embedding (Bert pre-trained model) ->\\
-Encoder (multi-head attention mechanism + position encoding) ->\\
-TExtCNN ->\\
-Decoder (multi-head attention mechanism) ->\\
-softmax (output layer)
+- Word embedding (Bert pre-trained model) ->
+- Encoder (multi-head attention mechanism + position encoding) ->
+- CNN ->
+- Decoder (multi-head attention mechanism) ->\\
+- softmax (output layer)
